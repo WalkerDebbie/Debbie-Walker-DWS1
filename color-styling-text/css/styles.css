@@ -1,0 +1,28 @@
+body {
+  font-family: Verdana, Arial, sans-serif;
+  color: rgb(100%,100%,100%);
+}
+
+h1 {
+	background-color: #CF0B56;
+}
+
+#four {
+	background-color: #ED6655;
+}
+
+#three {
+	background-color: #745ACF;
+}
+
+#two {
+	background-color: #571420;
+}
+
+#one {
+	background-color: #548CCF;
+}
+
+#zero {
+	background-color: #4A0FFF;
+}

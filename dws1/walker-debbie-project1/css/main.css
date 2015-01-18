@@ -1,0 +1,294 @@
+/*-----body------*/
+
+* {
+	margin:0;
+}
+body{
+	color: #666; /* shorthand for #666666 - 3 of the same numbers or letters in a row */
+	background: url("../images/repeatImg2.gif") fixed;/* shorthand must be
+	in this exact order, ie: {background: #color url("folder name/image name")
+	no-repeat fixed top right;} edit based on what you're trying to accomplish */
+	font: .75em Arial, Verdana, sans-serif; /* shorthand, combines font size and family */
+	line-height: 1.4em;
+	margin: 180px auto;
+	top:0;
+	width: 800px;
+	display:block;
+}	
+.wrapper {
+	background: rgba(107,142,35,.25);
+}
+a:link{
+	color: rgb(139,69,19);/* saddlebrown - link color */
+	text-decoration: none;
+}
+a:visited{
+	color: #8B4513; /* tan - visited link color */
+}
+a:hover{
+	color: #CD853F;/* peru - hover link color */
+}
+a:active{
+	color: #F0E68C;/* khaki - active link color */
+	line-height: 1.4;
+}
+
+/*-----header------*/
+
+header nav ul{
+	float:right;
+	padding:0;
+	width: 800px;
+	background: rgba(128,128,128);
+	clear: both;
+	overflow: hidden;
+	background: rgb(240,230,140);
+	background:linear-gradient(to bottom, #f0e68c 0%,#fffacd 44%,#f0e68c 72%,#f0e68c 100%); /* W3C */
+}
+nav ul{
+	background-color: rgb(240,230,140); /* khaki - text background */
+	margin-top: 144px;
+	border-top: 2px solid #D2B48C;
+ 	box-shadow: -1px 3px 3px rgba(128,128,128,0.75);
+ 	height: 20px;
+ 	border-bottom-right-radius: 6px;
+ 	border-bottom-left-radius: 6px;
+}
+header nav ul li{
+	display: inline-block;
+	text-align: center;
+	padding: 0 40px;
+	border-color: 33px 0;
+	margin-left: 1 15px 0 15px;
+}
+header nav ul li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: rgb(139,69,19);/* saddlebrown - link color */
+	text-align: center;
+	display: inline-block;
+	font-variant: inherit;
+}
+nav ul li a:hover {
+	color: #CD853F;/* peru - hover color */
+	background-color: rgba(255,250,205,0.5); /* lemonchiffon - 50% background color for link hover */
+	text-align: center;
+	display: inline-block;
+	padding: 0 30px;
+	height: 20px;
+}
+header{
+	top:0;
+	width: 800px;
+	background-image: url("../images/header.jpg"); /* Connor, Debbie, Mike jpg header 800px X 160px */
+	height:160px;
+	position: fixed;
+}
+/*-----content------*/
+h1{
+	width: 35%; /* 100% is = to 800px, but it won't keep it centered? */
+	/*position: fixed;*/
+	top: 0;
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+	clear: both;
+	/*position: fixed;*/
+	z-index: 3;
+	font-size: 0em;
+}
+#image-header{
+	float: left;
+	width: 250px;
+	display: block;
+	overflow: hidden;
+}
+#homeArt1{
+/* 		background: rgba(243,177,186,0.43); */
+	clear: both;
+	overflow: hidden;
+	width: 769.5px;
+	float: right;
+	display: block;
+	padding: 20px;
+}
+#homeArt2{
+	overflow: hidden;
+	width: 500px;
+	float: left;
+	display: block;
+	margin: 10px auto 17px 0;
+}
+.dropHeadline{
+	margin: 0px auto 5px;
+}
+#homeArt1 h2{
+	margin-top: 15px auto 5px auto ;
+}		
+#table1{
+	background: rgba(143,193,209,0.6);
+	display: block;
+	overflow: hidden;
+	padding: 8px;
+	width: 475px;
+	border: 4px solid rgba(44,187,168,0.64);
+	clear: right;
+	text-align: left;
+	margin-bottom: 30px;
+}	
+colgroup #table1{
+		background: rgba(108,227,223,0.76)
+}
+#table1 h3{
+	width: 450px;
+	background: #5eb7bd;
+}
+.tableHead{
+	font-weight: 300px;
+	background: rgba(134,221,227,0.76)
+	margin: 30px auto;
+}
+.alternative{
+	background: rgba(125,190,201,0.77);	
+}
+#external-links{
+	width: 778px;
+	display: block;
+	float: left;
+	overflow: hidden;
+	margin: 30px;
+}
+#homeArt3{
+	background: rgba(107,142,35,.25);
+			float: left;
+	display: inline block;
+	clear: both; 
+	width: 200px;
+}
+
+#historyArt1{
+	clear: both;
+	overflow: hidden;
+/* 		width: 200px; */
+	float: right;
+	display: block;
+	margin: 20px;
+}
+#historyArt2{
+	padding: 20px;
+	margin: 20px;
+	clear: both;
+	overflow: hidden;
+/* 		width: 200px; */
+	float: right;
+	display: block;
+}
+#historyAside1{
+	clear: both;
+	overflow: hidden;
+	width: 200px;
+	float: right;
+	display: block;
+}
+#careArt1{
+	background: rgba(107,142,35,.25);
+	clear: both;
+	overflow: hidden;
+/* 		width: 200px; */
+	float: right;
+	display: block;
+}
+#careArt2{
+	background: rgba(107,142,35,.25);
+	clear: both;
+	overflow: hidden;
+/* 		width: 200px; */
+	float: right;
+	display: block;
+}
+#careArt3{
+	background: rgba(107,142,35,.25);
+	overflow: hidden;
+/* 		width: 200px; */
+	float: right;
+	display: block;
+}
+#careAside1{
+	margin: 20px;
+	clear: both;
+	overflow: hidden;
+		width: 200px;
+	float: right;
+	display: block;
+}
+#careArt3{
+	background: rgba(107,142,35,.25);
+	margin: 20px;
+	padding: 20px;
+	clear: both;
+	overflow: hidden;
+/* 		width: 200px; */
+	float: right;
+	display: block;
+}
+#galleryArt1{
+	margin: 20px;
+	padding:20px;
+	background: rgba(107,142,35,.25);		
+	width: 200px;
+	float: left;
+	display: block;
+	border: 5px solid #585656;
+	float: left;
+	display: block;
+	
+}
+funArt1{
+	background: rgba(107,142,35,.25);
+	clear: both;
+	overflow: hidden;
+	width: 200px;
+	float: right;
+	display: block;
+}
+fun{
+	background: rgba(107,142,35,.25);
+	overflow: hidden;
+	width: 200px;
+	display: block;
+}
+#luckydog{
+	background: rgba(107,142,35,.25);
+	margin-top: -10px;
+	
+}
+/* ------------footer------------*/
+footer{
+	width: 780px;
+	height: 50px;
+  	font-size: .90em;
+  	line-height: 150%;
+	bottom: 0;
+	float: left;
+	padding: 0;
+	background: rgba(107,142,35,.25);
+	text-decoration: underline;
+	font-weight: bold;
+	display: inline-block;
+	padding: 10px;
+}
+#lockup{
+	display: block;
+	float: left;
+	margin-right: 20px;
+}
+#wiki{
+	display: block;
+	float: left;
+	margin-right: 20px;
+}
+#contact{
+	display: block;
+	float: left;
+	margin-right: 20px;
+}
