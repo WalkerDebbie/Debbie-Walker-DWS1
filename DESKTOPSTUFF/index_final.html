@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+
+<!--Debbie Walker 12-18-14, DWS
+Project 1,4 - Golden Retrievers-->
+
+<html lang="en">
+
+<!-- opening head -->
+<head>
+	<meta charset="utf-8"/>
+	<title>Golden Retrievers</title>
+	<link href="css/main.css"  rel="stylesheet" />
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+</head><!-- closing head -->
+
+<body>
+	<div id="wrapper">
+		<header> <!-- html5 changes the selctor div to header (in print this would be the newspaper/magazine mast-head) -->
+		<h1 id="top"><em>Golden Retrievers</em>?</h1><!--h1 is used for the overall web page headline / id "top" links sections "back to top"-->
+		<div id="nav">
+			<ul><!-- ul = unordered list - this is bulleted and no order -->
+				<li><a href="#">home</a></li> <!-- intenal links start with an (attribute) "a" and then a (hyper-reference) "href" -->
+				<li><a href="#">history</a></li>
+				<li><a href="#">care</a></li>
+				<li><a href="#">gallery</a></li>
+				<li><a href="#">newsletter</a></li>
+				<li><a href="#">contact</a></li>
+			</ul>
+		</div>
+		</header><!-- closing header -->
+		<section id="home">
+			<article>
+				<figure><!--set off image links with tagname "figure"-->
+					<a href="images/copyrightDW2014_1.gif" title="Connor Portrait">  <!--linked image-->
+					<img src="images/copyrightDW2014_1.gif" alt="Connor Portrait"  /></a><!--RELATIVE link example - also can apply width="216" height="360" class="align-left medium"-->
+					<figcaption>&copy; 2014 Debbie Walker</figcaption><!--nest image captions with tagname "figcaption"-->
+				</figure>
+				<h2>Learn All About Golden Retrievers</h2><!--h2 will be used for article headlines-->
+				<h3>Hosted by: <em><strong>Connor, the dog</strong></em></h3> <!--h3 will be used/as article clarification [ ELEMENT example: strong and emphasis ]-->
+				<p> Greetings Golden Retriever lovers my name is Connor, the Golden Retriever, and I will be your website host, after all who better to tell you about Golden's than an ol' Golden Retriever, himself?</p>				
+				<h2>Golden's Are Just Hairy Humans</h2>
+				<h3>Fun facts</h3>
+				<p>Golden prefer the company of people rather than other animals. It's no wonder why Golden Retrievers are the third most common dog in the United States. The other reasons are because they are smart, loyal and easily trained.</p>
+				<h3 >Training Categories</h3>
+				<table id="training"><!--(you can also add border-collapse in CSS)-->
+					<colgroup>
+						<col>
+						<col class="alternative"> <!-- this spans every other row -->
+						<col>
+					</colgroup>
+					<tr><!-- "tr" is an ELEMENT for table row -->
+						<th>Category</th> <!-- "th" is an ELEMENT for table header -->
+						<th colspan="2">Purpose</th>
+					</tr>
+					<tr>
+						<td><em>Hunting:</em></td>
+						<td>water fowl</td> 
+						<td>upland birds</td> 
+					</tr>
+					<tr>
+						<td><em>Service:</em></td>
+						<td>drug detection</td>
+						<td>visual guide</td>
+					</tr>
+					<tr>
+						<td><em>Therapy:</em></td>
+						<td>emotional</td>
+						<td>psychological</td>
+					</tr>
+					<tr>
+						<td><em>Obedience:</em></td>
+						<td>safety</td>
+						<td>compliance</td>
+					</tr>
+				</table> <!-- closing table -->
+				<p id="table1">All <em>training</em> begins with obedience and can start as early as 10 weeks with a minimum of a few 10 minute sessions per day.</p>
+			</article> <!--closing article-->   
+			<article><!--opening sidebar--> 
+				<div id="external-links">
+					<h2>Helpful Links</h2>
+					<p><a href="http://www.akc.org/" >American Kennel Club (AKC)</a><!--open-ended--></p>
+					<p><a href="http://landofpuregold.com/dd-drugs.htm">Land of PureGold Foundation</a></p>
+					<p><a href="http://www.huntingretrieverclub.org/">Hunting Retrieving Club (HRC)</a></p>
+					<p><a href="http://tinyurl.com/qdmrjm5">The Seeing Eye</a></p>
+					<p><a href="http://preview.tinyurl.com/kdxqoc7">Miami University/Therapy</a></p>
+					<p><a href="http://tinyurl.com/qc8foe3">Therapy Dog Certification</a></p>
+				</div>
+			</article><!--closing article--> 			
+		</section><!--closing home--> 
+		<!-- history section -->
+		<section id="history">
+			<!-- article  -->
+			<article>
+				<h2>50 Shades of Golden</h2>
+				<blockquote cite = "http://en.wikipedia.org/wiki/Golden_Retriever">
+					The original cross was of a yellow-coloured retriever, 'Nous', with a Tweed Water Spaniel female dog, 'Belle'. The Tweed Water Spaniel is now extinct, but was then common in the border country. Marjoribanks had purchased Nous in 1865 from an unregistered litter of otherwise black wavy-coated retriever pups. In 1868, this cross produced a litter that included four pups; these four became the basis of a breeding program which included the Irish Setter, the sandy-coloured Bloodhound, the St. John's water dog of Newfoundland, and two more wavy-coated black retrievers. The bloodline was also inbred and selected for trueness to Marjoribanks' idea of the ultimate hunting dog. His vision included a more vigorous and powerful dog than previous retrievers, one that would still be gentle and trainable. Russian sheepdogs are not mentioned in these records, nor are any other working dog breeds. The ancestry of the Golden Retriever is all sporting dogs, in line with Marjoribanks' goals. The Golden Retriever was active and powerful and had a gentle mouth for retrieving games while on hunts.</blockquote>
+				<p> Cited from<a href="https://en.wikipedia.org/wiki/Golden_Retriever">Wikipedia</a>, the free encyclopedia.</p>			
+			</article><!--closing article--> 
+			<article>
+				<p>Golden's can be traced back to one of these origins:</p>
+					<ul>
+						<li>British</li>
+						<li>American</li>
+						<li>Canadian</li>
+						<li>Scotland</li>
+					</ul>
+			</article><!--closing article-->
+			<aside>
+				<h3>Choose the color shade to find out the classification code.</h3>
+				<form action="action_page.php">
+					<select name="origin">
+					<option value="bleach">bleach</option>
+					<option value="blond">blond</option>
+					<option value="sandy">sandy</option>
+					<option value="red">red</option>
+					</select>
+					<br><br>
+					<input type="submit">
+				</form>
+				<p>I'm an American Golden, code 080 which is a classification for my dark golden color. <!--Abbreviation example-->My <abbr title="American Kennel Club">AKC</abbr> and <abbr title="United Kennel Club">UKC</abbr> registered name is Grand Cheien Roux Doré, but I answer to Connor.</p>
+			</aside>
+		</section><!-- closing history -->
+				
+		<!-- care section -->
+		<section id="care">
+			<article>
+				<h2>A Dog's Life</h2>
+				<p> Finally the day you've been waiting for! You're bringing home a new member to your
+				<!--Quotes-->family, but wait. Mike says, <q>There are a few things you should do <i>before</i>, <i>during</i> and <i>after:</i></q></p>
+				<h3><b><i>Before you bring your Golden home:</i></b></h3>
+				<h4> What to buy first.</h4>
+				<ul>
+					<li>Purchase metal or porcelain bowls only - <em>plastic bowls can trap bacteria in scratches of the plastic - you'll need two (one for food and one for water)</em></li>
+					<li>Schedule an appointment with a local veterinarian clinic - Mike says it's a good idea to ask a dog-loving friend make a recommendation</li>
+				</ul>
+			</article>
+			<article>
+				<h4>Pet proof your house!</h4>
+					<ol>
+						<li>Make sure to hide electrical cords</li>
+						<li>Put toilet seats down</li>
+						<li>Install safety locks on cabinets that have poisons stored in them</li>
+						<li>Save your furniture and shoes - purchase a few chew toys - <i>find durable toys without buttons or strings that your dog can chew off and get caught in his/her throat</i></li>
+					</ol>
+			</article>
+			<aside>
+				<p>Debbie says, <q>Puppies (and some very curious older dogs - not me of course) can be like small children. When bored, they'll find ways to entertain themselves - <i>which usually leads to something being destroyed.</i></q></p>
+			</aside>
+			<article>
+				<h3>On your way home:</h3>
+				<p>Visit the veterinarian...</p>
+				<h4>For Puppies:</h4>
+					<ol>
+						<li>Have vaccines administered</li>
+						<li>Check-up, for worms</li>
+					</ol>
+				<h4>For Adults:</h4>
+					<ol>
+						<li>Tick/flea prescriptions</li>
+						<li>Spade or neutered</li>
+					</ol>
+				<h4><b><i>After your Golden settles in:</i></b></h4>
+					<ul>
+						<li>Make sure to keep his/her teeth cleaned</li>
+						<li>Frequently groom</li>
+						<li>Regularly exercise</li>
+						<li>Love and adore</li>
+					</ul>
+			</article>
+		</section><!-- closing care -->		
+		<section id="gallery">
+				<div>
+				<h3>Photo Gallery</h3>
+				<p id="1"><a href="images/img4.jpg" title="Connor in cage">
+					<img src="images/img4a.jpg" alt="Connor in cage" width="216" height="144" class="align-left medium" />
+					</a></p>
+				<figure>
+					<figcaption>Mike always kennels Connor for safety while traveling.</figcaption>
+				</figure>
+				</div>
+				<div >
+				<p id="2"><a href="images/img5a.jpg" title="Connor smiling">
+					<img src="images/img5b.jpg" alt="Connor smiling" width="216" height="144" class="align-left medium" />
+					</a></p>
+				<figure>
+					<figcaption>Look Mom, no cavities.</figcaption>
+				</figure>
+				</div>
+				<div>
+				<p id="3"><a href="images/img6.jpg" title="Connor duck hunting">
+					<img src="images/img6a.jpg" alt="Connor duck hunting" width="216" height="144" class="align-left medium" />
+					</a></p>
+				<figure>
+					<figcaption>Not to wag my tail too much, but I have won a few blue ribbons in my life.</figcaption>
+				</figure>
+				</div>
+				<div>
+				<p id="4"><a href="images/img7.jpg" title="Connor hiking">
+					<img src="images/img7a.jpg" alt="Connor hiking" width="216" height="144" class="align-left medium" />
+					</a></p>
+				<figure>
+					<figcaption>One of my favorite pass times is roaming through forests.</figcaption>
+				</figure>
+				</div>
+				<div id="back2care"><p><a href="#care">back</a></p>
+				</div>
+		</section><!-- closing gallery -->
+		<section id="fun">
+		<div>
+			<h2>A Dog's Life</h2>
+			<h3>In dog years</h3>
+			<p>Dogs age approximately 7 years for every human year.</p>
+			<p>PLACE HOLDER FOR JAVASCRIPT - IN DOG YEARS FUNCTION????</p>
+		</div>
+		<form action="action_page.php" method="post">
+			<fieldset id="luckydog">
+				<legend>YoubLucky-Dog!</legend>
+					<fieldset>
+					<legend >Just a few:</legend>
+						<div id="littleOrders">
+							<a href="images/copyrightDW2014_1.gif" title="Connor Portrait">  <!--linked image-->
+							<img src="images/copyrightDW2014_1.gif" alt="Connor Portrait"  /></a><!--RELATIVE link example - also can apply width="216" height="360" class="align-left medium"-->
+							<p>Lucky-Dog tees are made with 100% cotton and get more comfortable with every wash.</p>
+									<div>	
+										<h4>T-Shirt Size:</h4>
+										<select name="What type of Golden do you have?" id="type-of-dog">
+											<option value="Adult XXL">Adult XXL</option>
+											<option value="Adult XL">Adult XL</option>
+											<option value="Adult L">Adult L</option>
+											<option value="Adult M">Adult M</option>
+											<option value="Adult S">Adult S</option>
+											<option value="Child XL">Child L</option>
+											<option value="Child M">Child M</option>
+											<option value="Child S">Child S</option>
+										</select>
+									</div>
+									<div>
+										How many? <label for="quantity" class="title"></label>
+										<input type="text" id="quantity" name="quantity" placeholder="Add the number of tees here" required="required" size="30"><br>
+									</div>	
+									<div>
+										<label for="radio" class="title">Is this a gift?</label>
+										<input type="radio" id="radio" name="yes" value="yes">Yes
+										<input type="radio" name="no" value="no">No
+									</div>
+									<div>
+										<label for="comment">If so, please write a gift message:<br></label>
+										<textarea name="comment" id="comment" cols="20" rows="4"></textarea>
+									</div>
+						</div>	
+					</fieldset>
+					<fieldset>		
+					<legend >Need a litter:</legend>
+						<div id="bigOrders">
+							<p>Find your pack in any crowd, order a dozen or more t-shirts and we'll place a name on the back for <strong>FREE!</strong></p>
+							<p>GREAT! Dear Connor, I need a litter of Lucky-Dog t-shirts...<p>			
+							<p><a href="mailto:goldenretrieverconnor@gmail.com?Subject=Hi%20there%20Connor..." target="_top">Click here to send details to Connor.</a></p>
+							</div>
+					</fieldset>	
+					<fieldset>	
+						<legend >Fill me in:</legend>
+							<div id="information">
+								<div>
+									<label for="fname" class="title">First Name:</label>
+									<input type="text" id="fname" name="name" placeholder="First Name" required="required" size="30" autofocus><br>
+								</div>
+								<div>
+									<label for="lname" class="title">Last Name:</label>
+									<input type="text" id="lname" name="lname" placeholder="Last Name" required="required" size="30"><br>
+								</div>
+								<div>
+									<label for="billingaddress" class="title">Billing Address:</label>
+									<input type="text" name="street" id="billingaddress" placeholder="Street" required="required" size="30"><br>
+								</div>
+								<div>
+									<label for="city" class="title">City:</label>
+									<input type="text" name="city" id="city" placeholder="City" required="required" size="30"><br>
+								</div>
+								<div>
+									<label for="state" class="title">State:</label>
+									<input type="text" name="state" id="state" placeholder="State" required="required" size="30"><br>
+								</div>
+								<div>
+									<label for="zip" class="title">Zip Code:</label>
+									<input type="text" name="zip" id="zip" placeholder="Zip Code" required="required" size="30"><br>
+								</div>
+								<div>	
+									<label for="paymentMethod">Payment Method:</label>
+									<select name="paymentMethod" id="paymentMethod">
+										<option value="visa">Visa</option>
+										<option value="mastercard">Master Card</option>
+										<option value="discover">Discover</option>
+									</select>
+								</div>
+								<div>
+									<label for="email" class="title">Email:</label>
+									<input type="email" name="email" id="email" placeholder="email" required="required" size="30"><br>
+								</div>
+								<div>
+									<label for="pass1" class="title">Password:</label>
+									<input type="password" name="pass1" id="pass1" required="required" placeholder="Password Required" size="30"><br>
+								</div>
+								<div>
+									<label for="pass2" class="title">Confirm Password:</label>
+									<input type="password" name="pass2" id="pass2" required="required" placeholder="Confirm Password" size="30"><br>
+								</div>
+								<div>
+									<input type="checkbox"	name="checkbox" id="checkbox" value="remember" required="required" >
+									<label for="checkbox" class="title">Remember My Information</label>
+								</div>
+							</div>
+					</fieldset>	
+					<fieldset>
+					<legend >Throw me a bone!</legend>
+						<div id="promo" >
+						<p>Once a month Connor sends a Lucky member a FREE giveaway! <br> Check below to be included in all the fun.</p>
+								<input type="checkbox"	name="checkbox"  class="checkbox" value="checkbox" required="required">
+								<label for="checkbox" class="title">YES! I'm begging to be entered.</label>
+						</div>
+					</fieldset >
+					<div>
+						<button type="button" onclick="alert('Thanks! Your order is being processed.')">Submit</button>
+					</div>
+			</fieldset>
+		</form><!--closing form-->
+		</section><!-- closing newsletter -->
+		<!-- footer section -->
+		<section id="footer">
+			<div id="lockup"><p>&copy; 2014 Debbie Walker</p>
+			</div>
+			<div id="wiki"><p> Cited from <a href="https://en.wikipedia.org/wiki/Golden_Retriever">Wikipedia</a>, <i> the free encyclopedia.</i></p>
+			</div>
+			<div id="contact-details">
+				<h2>Throw me a bone!</h2>
+				<p><a href="https://www.facebook.com/profile.php?id=100006919756822">Facebook</a></p>				
+				<p><a href="mailto:goldenretrieverconnor@gmail.com?Subject=Hi%20there%20Connor..." target="_top">Contact</a></p>
+			</div>
+		</section><!-- closing footer -->
+	</div><!--closing wrapper-->
+</body><!--closing body-->

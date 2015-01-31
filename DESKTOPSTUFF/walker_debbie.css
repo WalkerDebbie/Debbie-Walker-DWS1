@@ -1,0 +1,64 @@
+
+/*--Debbie Walker 12-18-14, DWS, CSS Practical--*/
+
+/*--RESET - strips CSS of built in default attributes--*/
+
+*{    
+	margin: 0px;
+}
+
+
+h1{
+	background-color:red;
+}
+p{
+	background: yellow;	
+}
+div{
+	background: green;
+}
+span{
+	background: salmon;
+}
+a{
+	background: orange;
+}	
+b{
+	background: aqua;
+}
+strong{
+	background: grey;
+}
+input{
+	background: purple;
+}
+
+/*without putting a padding on the parent, the child will come to the front and cover the parent up - exactly - so you have to change the attribute size to one of them in order for it to show up.
+	
+	NOTE: the html file only had text in the child for this example - which also contributes to the blocks being right on top of each other
+*/
+
+div.parent{
+	background: red;
+}
+
+div.child{
+	background: orange;
+}
+
+/*in this example we gave the parent a padding of 20px
+	this puts 20 px around all four sides - which looks like a border - SO CAUTION
+	
+	after the parent container recieved content, it pushed the box down to make room and changed the child container to look like they were stacked instead of outlined
+*/
+
+div.parent{
+	background: red;
+	padding:20px;
+}
+
+div.child{
+	background: orange;
+}
+
+/*in this example we gave the parent a padding of 20px*/

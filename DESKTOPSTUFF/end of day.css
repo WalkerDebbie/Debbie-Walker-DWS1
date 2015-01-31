@@ -1,0 +1,117 @@
+/* ------------WRAPPER------------*/
+
+body{
+	background: #FF0 url("../images/repeatImg2.gif") fixed;/* shorthand must be
+  	in this exact order, ie: {background: #color url("folder name/image name")
+  	no-repeat fixed top right;} edit based on what you're trying to accomplish */
+	clear: both;
+  	font: .75em Arial, Verdana, sans-serif; /* shorthand */
+	margin: 0 1% 0 0;
+	float: left;
+}
+
+
+/* ------------HEADER------------*/
+
+h1{
+	width: 800px; /* 100% is = to 800px */
+	float: left;
+	/*position: fixed;*/
+	top: 300%;
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+	clear: both;
+	/*position: fixed;*/
+	z-index: 3;
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	font-size: 0em;
+
+}
+
+
+
+/* ------------NAVIGATION------------*/
+
+nav{
+	background-color: rgb(240,230,140);
+	/* background: linear-gradient(direction, color-stop1, color-stop2, ...); */
+	border-bottom: 2px solid #D2B48C;
+	border-top: 1px solid #D2B48C;
+ 	box-shadow: 0px 3px 2px rgba(128,128,128,0.25);
+ 	float: left;
+	margin: 5% auto 2% auto;
+	position: fixed;
+	top: 26%;
+	float: left;
+	padding: 0;
+	width: 800px;
+ 	z-index: 4;
+ 	clear: both;
+}
+nav li {
+	float: left;
+	list-style: none;
+	border-right: .2em solid #D2B48C;
+	padding: .5%;
+	margin-right: 12%;
+
+}
+nav li a {
+	display: block;
+	text-decoration: none;
+	letter-spacing: 0.05em;
+	font-weight: bold;
+	color: rgb(139,69,19);/* saddlebrown - link color */
+}
+nav li a:hover {
+	color: #CD853F;/* peru - hover color */
+	background-color: rgba(255,250,205,0.5); /* lemonchiffon - 50% background color for link hover */
+}
+
+
+/* ------------CONTENT------------*/
+
+h2{
+	width: 50%;
+	font-family: 'Montserrat', Helvetica, sans-serif;
+	font-size: 1.5em;/* this is an example of adding space between letters */
+	color: rgb(160,82,45);/* sienna - h2 color */
+  	text-shadow: 1px 1px 1px #DCDCDC; /* leaving out a third #px, removes the Gaussian shadow */
+  	text-align: left;
+  	margin: 0 auto;
+  	padding: 0;
+  	float: left;
+  	clear: both;
+}
+h3{
+	width: 50%
+	float: left;
+}
+
+#home, #history, #care{
+	margin: auto;
+	float: left;
+	width: 200%;
+	clear: both;
+	background-color: #999;
+	display: block;
+}
+
+
+
+
+/* ------------FOOTER------------*/
+
+footer{
+	clear: both;
+	height: 50px;
+	width: 44em;
+	background-color: #666;
+	margin-bottom: 10px;
+
+#wrapper{
+
+}
+}

@@ -1,0 +1,40 @@
+/*------ Document -----*/	
+
+
+
+body {
+	margin: 0 auto;
+	font: .75em/ 1.5em Helvetica, Arial, sans-serif;
+	color: #797267;
+	width: 960px;
+	background: rgba(128,128,128,0.5);
+	background-image: url("../images/logo.gif") no-repeat;
+	background-image: center;
+}
+
+/*------ Header -----*/
+header{
+	width: auto;
+
+	background: rgba(128,128,128,0.75);
+	border: 3px dotted gray;
+}
+nav{
+		display: inline-block;
+		text-decoration: none;
+		float: right;
+}
+h1{
+	text-indent: -9999px;
+}
+
+
+/*------ Main Content -----*/
+p{
+	width: 450px;
+	background: blue;
+	float: left;
+	margin: 5px;
+	padding: 5px;
+	border:2px dotted gray
+}

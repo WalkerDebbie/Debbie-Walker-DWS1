@@ -1,0 +1,128 @@
+/*       M A I N  S T Y L E S      */	
+body{
+	width: 900px;
+	margin: 0 auto;
+	border: 12px #FAFAD2;	
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 0.8em;
+	font-weight: 0em;
+	font-style: none;
+	line-height: auto;
+	text-align: left;
+/* Or text-indent, if needed */
+	text-shadow: none;
+	letter-spacing: 0.15em;	
+}	
+/*foreground color: #D3D3D3; NEED TO INCLUDE THIS*/
+/* Apply opacity for future reference */
+    
+ /*div{
+   background-color: #FAFAD2;
+   width: 400px;*/
+ /* Don't add height - because it may affect the copy block, forcing it to overflow the color */
+ }
+
+
+
+ p{
+	width: 200px;
+	background-color: #FFFACD;
+	padding: 10px;
+	margin: 30px auto;
+	border: 20px #FFA500;
+	float: left;
+      /* Don't add height - because it may affect the copy block, forcing it to overflow the color */
+ 
+ }
+ 
+ ul{
+ 	list-style: none;
+ 	border: 1px solid #000;
+ }
+ 
+ li{
+	background-color: #EE3E80;
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+ }
+ 
+ /* for inline items to block: 
+ 
+ ul{
+ 	width: 0px;
+ 	list-style: none;
+ 	border: 1px solid #000;
+ 	padding: 0;
+ }
+ li{
+ 	margin-right: 50px;
+ 	display: inline-block;
+ }
+ 
+ li a{
+ 	display: block;
+ 	background-color: #EE3E80;
+ 	width: 0px;
+ 	height: 0px;
+ 	text-align: center;
+ 	text-decoration: none:
+ 	color: white;
+ 	padding-top: 8px;
+ }
+ 
+ li a:hover {
+ 	background-color: grey;
+ 	
+ }
+	
+/* Add a web based font: </link/> or @ font-face */
+
+/* Style links using pseudo-classes: - this is for the photo gallery images */
+a:link{
+  color: #468966;
+  text-decoration: underline;}
+a:visited{
+  color: #6495ED;
+}
+a:hover{
+  color: #00FFFF;
+}
+a:active{
+  color: #BDB76B;
+}
+
+/* change default list styling */
+list-style-type
+
+}
+
+/*       N A V I G A T I O N     */	
+
+h1{
+	margin: 0;
+}
+
+/* BLOCK OVERFLOW: To change paragraph content: p#{ overflow: scroll }, 
+or p# { overflow: hidden }, or p# { overflow: auto - this adds only "if" needed } */
+/* INLINE BOX MODEL PROPERTIES are mostly ignored by the browser.*/
+
+/*       B O X  M O D E L  -  L A Y O U T      */	
+/* Apply an example of each property: */
+width: 0px;
+height: 0px:
+padding: 0px;
+border: 0px style #color;
+margin: 0px;
+
+/* Center your page using: */
+width
+auto margins
+
+/* Add rounded corners using: */
+border-radius: 20px 0 40px 0;
+border-top-left-radius: 20px;
+/* Add box shadow using: */
+box-shadow: -5px 5px 15ps 7px #000;
+/* Change the display of elements from their default using: */
+display

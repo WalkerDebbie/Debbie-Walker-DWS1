@@ -1,0 +1,35 @@
+
+/* ------------FOOTER------------*/
+
+footer{
+width:61.125%;
+height:6%;
+text-align:center;
+font-size:.90em;
+margin:auto;
+line-height:50%;
+/* position:fixed; */
+bottom:0;
+float:left;
+padding:0;
+background-color:rgb(240,230,140); /* khaki - text background */
+border-top:thick solid #D2B48C;
+box-shadow:0px -3px 3px rgba(128,128,128,0.25);
+/* z-index:1; */
+background-image:url("../images/repeatImg1.gif"); /* Connor, Debbie, Mike jpg header 800px X 160px */
+border-top-right-radius:60%;
+border-top-left-radius:60%;
+}
+#cited{
+width:50%;
+float:right;
+text-align:left;
+padding:1%;
+}
+#backtop{
+width:10%;
+float:right;
+margin: 0 auto;
+text-align:right;
+padding:1%;
+}

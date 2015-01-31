@@ -1,0 +1,189 @@
+[/*=================BODY===============*/
+
+body{
+	color: #666; /* shorthand for #666666 - 3 of the same numbers or letters in a row */
+	background: #FF0 url("../images/repeatImg2.gif") fixed;/* shorthand must be
+	in this exact order, ie: {background: #color url("folder name/image name")
+	no-repeat fixed top right;} edit based on what you're trying to accomplish */
+	font: .75em Arial, Verdana, sans-serif; /* shorthand, combines font size and family */
+	line-height: 1.4em;
+	margin: 0px;
+}
+
+/*=================HEADER===============*/
+
+
+
+header{/*header includes photo image inside of header tag and nav bar w/ links*/
+background:url("../images/header.jpg") no-repeat;/* link: Connor, Debbie, Mike jpg header 800px X 160px */
+width:800px;
+top:0;/*essential to top header space*/
+position:fixed;
+height:25%;/*essential to the top of header - adds height to the space from the top*/
+text-align:center;
+font-weight:bold;
+font-size: 1.15em;
+z-index:5;
+}
+
+/*=================NAVIGATION===============*/
+
+
+nav{/*this is the whole bar without text*/
+/* background: linear-gradient(direction, color-stop1, color-stop2,...); */
+background:linear-gradient(to bottom, #f0e68c 0%,#fffacd 44%,#f0e68c 72%,#f0e68c 100%); /* W3C */
+border-bottom:8px solid rgba(128,128,128,0.25);
+box-shadow:0px 3px 2px 1px rgba(128,128,128,0.25);
+margin:20% auto;
+width:800px;
+border-bottom-right-radius:60%;
+border-bottom-left-radius:60%;
+height:20%;
+}
+nav ul li{
+display:inline-block;
+clear:both;
+text-align:left;
+padding:4%;
+clear:left;
+}
+nav li a{
+font-weight:bold;
+text-decoration:none;
+color:rgb(139,69,19);/* saddlebrown - link color */
+
+}
+nav li a:hover {
+color: #CD853F;/* peru - hover color */
+background-color:rgba(255,250,205,0.5); /* lemonchiffon - 50% background color for link hover */
+padding:3%;
+}
+
+/*=================CONTENT===============*/
+
+a {
+color: #pink;
+text-decoration: none;
+}
+
+
+h1, h2, h3 {
+font-weight: normal;
+}
+
+h2 {
+margin: 10px 0px 5px 0px;
+a {
+color: #de6581;
+text-decoration: none;
+}
+padding: 0px;
+}
+
+h3 {
+margin: 0px 0px 10px 0px;
+color: #de6581;
+}
+
+#wrapper {
+width: 940px;
+margin: 20px auto;
+border: 2px solid #000000;
+background-color: #ffffff;
+}
+
+#header {
+height: 160px;
+background-image: url("https://dl.dropboxusercontent.com/u/76153445/images/header.jpg");
+}
+
+h1 {
+text-indent: -9999px;
+width: 940px;
+height: 130px;
+margin: 0px;
+}
+
+#nav ul {
+margin: 0px;
+padding: 5px 0px 5px 30px;
+list-style: none;
+}
+
+#nav li {
+display: inline;
+margin-right: 40px;
+}
+
+#nav li a {
+color: #ffffff;
+}
+
+#nav li a:hover, nav li a#current {
+color: #000000;
+}
+
+#nav, #footer {
+color: #ffffff;
+background-color: #aeaca8;
+height: 30px;
+}
+
+div#courses {
+float: left;
+width: 659px;
+border-right: 1px solid #eeeeee;
+}
+
+.article {
+overflow: auto;
+}
+
+.article h2 {
+margin-top: 40px;
+}
+
+figure {
+float: left;
+width: 290px;
+height: 220px;
+padding: 5px;
+margin: 20px;
+border: 1px solid #eeeeee;
+}
+
+figcaption {
+font-size: 90%;
+text-align: left;
+}
+
+#sidebar {
+width: 230px;
+float: left;
+padding: 0px 0px 0px 20px;
+}
+
+#sidebar a {
+display: block;
+padding: 10px;
+border-bottom: 1px solid #eeeeee;
+}
+
+#sidebar a:hover {
+color: #985d6a;
+background-color: #efefef;
+}
+
+#sidebar h2 {
+padding: 30px 0px 10px 0px;
+color: #de6581;
+}
+
+/*=================FOOTER===============*/
+
+
+#footer {
+font-size: 80%;
+padding: 7px 0px 0px 20px;
+clear: both;
+}]

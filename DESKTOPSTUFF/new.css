@@ -1,0 +1,148 @@
+/* ------------INHERENT ELEMENTS------------*/
+
+body{
+width:100%;
+background:url("../images/repeatImg2.gif") fixed;
+margin:0 auto;
+display: block;
+font: .75em Arial, Verdana, sans-serif; /* shorthand, combines font size and family */
+}
+
+/*Navigation*/
+
+header{
+top:0;
+z-index:1;
+position:fixed;
+left:200px;
+}
+#placer{
+top:0;
+width:800px;
+height:160px;
+clear:both;
+}
+
+
+
+
+
+
+
+nav{
+background:url("../images/header.jpg") no-repeat;
+}
+nav ul{
+margin: 0 auto;
+left:200%;
+background-color:green;
+}
+ul li {
+display:inline-block;
+}
+nav ul li a{
+text-decoration:none;
+}
+
+nav{
+/* background: linear-gradient(direction, color-stop1, color-stop2, ...); */
+background: linear-gradient(to bottom, #f0e68c 0%,#fffacd 44%,#f0e68c 72%,#f0e68c 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0e68c', endColorstr='#f0e68c',GradientType=0 ); /* IE6-9 */
+border-bottom: 2px solid #D2B48C;
+border-top: 1px solid #D2B48C;
+box-shadow: 0px 3px 2px rgba(128,128,128,0.25);
+float: left;
+margin: 5% auto 2% auto;
+/*position: fixed;*/
+top: 0;
+padding: 0;
+width: 800px;
+z-index: 4;
+clear: both;
+border-bottom-right-radius: 6px;
+border-bottom-left-radius: 6px;
+}
+nav li {
+float: left;
+list-style: none;
+border-right: .2em solid #D2B48C;
+padding: .5%;
+margin-right: 12%;
+}
+nav li a {
+display: block;
+text-decoration: none;
+letter-spacing: 0.05em;
+font-weight: bold;
+color: rgb(139,69,19);/* saddlebrown - link color */
+}
+nav li a:hover {
+color: #CD853F;/* peru - hover color */
+background-color: rgba(255,250,205,0.5); /* lemonchiffon - 50% background color for link hover */
+}
+
+/*headings*/
+h1{
+width:100%;
+display:block;
+margin:0 auto;
+background-color:cyan;
+padding:5px;
+}
+#col1{
+width:250px;
+float:left;
+display:block;
+background-color:green;
+margin:10px;
+}
+#col2{
+width:250px;
+float:left;
+display:block;
+background-color:blue;
+}
+aside{
+width:250px;
+float:left;
+display:block;
+background-color:cyan;
+margin:10px;
+}
+#history{
+clear:both;
+}
+#home{
+margin:0 auto;
+width:800px;
+display:block;
+}
+
+/* ------------FOOTER------------*/
+
+footer{
+width: 800px;
+left:200%
+height: 5%;
+text-align: center;
+font-size: .90em;
+margin: auto;
+line-height: 50%;
+position: fixed;
+bottom: 0;
+float: left;
+padding: 0;
+background-color: rgb(240,230,140); /* khaki - text background */
+border-top: 2px solid #D2B48C;
+box-shadow: 0px -3px 3px rgba(128,128,128,0.25);
+z-index: 1;
+background-image: url("../images/repeatImg1.gif"); /* Connor, Debbie, Mike jpg header 800px X 160px */
+
+}
+footer a{
+text-decoration: underline;
+font-weight: bold;
+}
+footer {
+font-size: 80%;
+padding: 7px 0px 0px 20px;

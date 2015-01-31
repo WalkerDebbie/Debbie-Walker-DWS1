@@ -1,0 +1,131 @@
+/*==============BODY================*/
+
+body{
+width:800px;
+background:url("../images/repeatImg2.gif") fixed;
+margin:0 auto;
+display: block;
+font:.75em Arial,Verdana,sans-serif; /* shorthand, combines font size and family */
+letter-spacing:0.05em;
+text-align:left;
+}
+.wrapper{
+background-color:rgba(255,250,205,0.50);
+width:800px;
+height:auto;
+}
+/*.placer{/*placer goes behind the header to add space for text*/
+/*display:block;
+width:800px;
+float:left;
+margin:0 auto 100px;
+}
+*/
+
+
+/*==============HEADER================*/
+
+header{/*header includes photo image inside of header tag and nav bar w/ links*/
+background:url("../images/header.jpg") no-repeat;/* link: Connor, Debbie, Mike jpg header 800px X 160px */
+width:800px;
+top:0;/*essential to top header space*/
+position:fixed;
+height:30%;/*essential to the top of header - adds height to the space from the top*/
+text-align:center;
+font-weight:bold;
+font-size: 1.15em;
+clear:both;
+z-index: 3;
+}
+
+/*==============NAVIGATION================*/
+
+nav{/*this is the whole bar without text*/
+/* background: linear-gradient(direction, color-stop1, color-stop2,...); */
+background:linear-gradient(to bottom, #f0e68c 0%,#fffacd 44%,#f0e68c 72%,#f0e68c 100%); /* W3C */
+border-bottom:8px solid rgba(128,128,128,0.25);
+box-shadow:0px 3px 2px 1px rgba(128,128,128,0.25);
+margin:19% auto;
+width:800px;
+border-bottom-right-radius:60%;
+border-bottom-left-radius:60%;
+height:40px;
+}
+nav ul li{
+display:inline-block;
+padding-top: 9px;
+}
+nav li a{
+font-weight:bold;
+text-decoration:none;
+color:rgb(139,69,19);/* saddlebrown - link color */
+padding: 20px;
+margin-top: 20px auto 0;
+
+}
+nav ul li:hover{
+color: rgb(244,164,96);/* sandybrown - hover color */
+background-color:rgba(255,250,205,0.5); /* lemonchiffon - 50% background color for link hover */
+padding: 3px;
+border-radius: 20px;
+}
+
+/*==============CONTENT================*/
+
+h1, h2, h3, h4, p{
+padding:2%;
+}
+/*position:absolute;
+top:200px;
+left:100px;
+}*//* this is how to position something precisely where you want it on the page*/
+
+
+#home h1{
+text-align:left;
+font-family: 'Montserrat', Helvetica, sans-serif;
+width:800pxx;
+margin:50px auto 10px ;
+			/*background-color:rgba(128,128,128,0.25);
+border: 1px solid #666; for design purposes*/
+	display: inline-block;
+	clear:left;
+}
+
+#home{
+text-align:left;
+margin:125px auto 10px ;
+		background-color:rgba(128,128,128,0.25);
+	border: 1px solid #666;
+	clear:both;
+	display: inline-block;
+
+}
+#content{
+background-color: rgba(255,250,205,0.5); /* lemonchiffon - 50% background color for link hover */
+padding: 20px;
+
+}
+#col1{
+	width: 90px;
+	display: right; 
+}
+
+#gallery{
+	width:200px;
+}
+
+p#1{
+	width: 200px;
+	float:left;
+	margin:0;
+	display: inline-block;
+	clear:both;
+		border: 1px solid rgb(139,69,19);/* saddlebrown - link color */
+
+
+}
+
+/*==============FOOTER================*/
+
+
